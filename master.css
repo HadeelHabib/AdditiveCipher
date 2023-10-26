@@ -1,0 +1,91 @@
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+  
+  
+.container {
+  
+    margin: 20px;
+    text-align: center;
+    
+    position: relative;
+    z-index: 1;
+}
+.container h2{
+   
+    color:white;
+    font-size: 2em;
+}
+
+.input-label {
+    font-weight: bold;
+    color:white;
+    
+}
+.input-field {
+    width: 300px;
+    height: 30px;
+    padding: 0px 10px 0 10px;
+    border-radius: 15px;
+    border:0 white;
+    margin-top:10px;
+    background-color: #ffffffcf;
+
+}
+.result-label {
+    font-weight: bold;
+    margin-top: 20px;
+    color:white;
+}
+.result-field {
+    width: 307px;
+    height: 104px;
+   
+    border-radius: 15px;
+    border:0 white;
+    margin-top:10px;
+    background-color: #ffffffcf;
+
+}
+.encrypt-button{
+    
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ad647d;
+    padding: 14px 50px;
+    border-radius: 6px;
+    background-color: #e546a28f;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+       
+    
+    
+}
+.adec{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ad647d;
+    padding:14px 50px;
+    border-radius: 6px;
+    background-color: #e546a28f;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
